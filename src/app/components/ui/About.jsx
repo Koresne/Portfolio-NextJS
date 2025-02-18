@@ -1,6 +1,6 @@
 "use client"
 
-import { features } from '../data/data'; // Upewnij się, że ścieżka jest poprawna
+import { abouts } from '../data/data'; // Upewnij się, że ścieżka jest poprawna
 import Image from "next/image";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -34,13 +34,13 @@ const About = () => {
                 <div className="">
                     <div className="container mx-auto px-4 " >
                         <div className="flex justify-center " >
-                            {features && features.length > 0 ? (
-                                features.map((feature, index) => (
+                            {abouts && abouts.length > 0 ? (
+                                abouts.map((about, index) => (
                                     <FeatureCard
                                         key={index}
-                                        title={feature.title}
-                                        description={feature.description}
-                                        icon={feature.icon}
+                                        title={about.title}
+                                        description={about.description}
+                                        icon={about.icon}
                                     />
                                 ))
                             ) : (

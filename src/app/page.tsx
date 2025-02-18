@@ -1,11 +1,15 @@
 "use client"
 
 import Image from "next/image";
+
 import Header from '../app/components/ui/Header';
 import Hero from './components/ui/Hero';
 import About from './components/ui/About';
 import Technologies from './components/ui/Technologies'
 import Experience from './components/ui/Experience'
+import Footer from './components/ui/footer';
+import Project from './components/ui/Projects';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -29,8 +33,10 @@ export default function Home() {
             <Hero />
             <Technologies />
             <Experience />
+            <Project />
             <About />
             
+            <Footer />
           </div>
         </div>
   );

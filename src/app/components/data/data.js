@@ -12,7 +12,7 @@ export const HERO_SECTION = [
   import comp from '../images/comp.png';
   import Linux from '../images/Linux.png';
   
-  export const features = [
+  export const abouts = [
       {
           title: "Kwalifikacja Zawodowa",
           description: "INF 02. Administracja i eksploatacja systemów komputerowych",
@@ -53,3 +53,22 @@ export const HERO_SECTION = [
     },
     // Dodaj więcej doświadczeń według potrzeb
   ];
+
+  import project1 from '../images/project1.png'
+  import question from '../images/question.png'
+  export const PROJECTS = [
+    {
+      title: "Portfolio",
+      image: project1,
+      description: "Na moim portfolio znajdziesz projekty, które odzwierciedlają moje umiejętności, pasję i dążenie do doskonałości. Zapraszam do odkrycia mojej pracy i kontaktu w celu współpracy!",
+      technologies: ["Tailwind CSS", "Next JS", "React", "JavaScript"],
+    },
+    // {
+    //   title: "T.B.A",
+    //   image: question,
+    //   description: "...",
+    //   technologies: ["..."],
+    // }
+
+    
+  ]
